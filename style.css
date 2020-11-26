@@ -1,0 +1,185 @@
+*{
+	margin:0;padding: 0;box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+header{
+	width: 100%; height: 100vh;
+	background-image: url('img01.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav{
+	width: 100%;height: 15vh;
+	background:rgb(0,0,0,0.2);
+    color:white; display: flex; justify-content:space-between;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav .logo{
+	width: 25%;
+	text-align: center;
+
+}
+nav .menu{
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav .menu a{
+	width: 25%;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+   
+}
+
+
+
+main{
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+
+}
+
+section{
+
+}
+
+section h3{
+	font-size: 35px; font-weight: 200; letter-spacing: 3px;
+	text-shadow: 1px 1px 2px white;
+    
+}
+
+section h1{
+	margin: 30px 0 20px 0;
+	font-size: 55px;
+	font-weight: 700;
+	text-shadow: 2px 1px 5px white;
+	text-transform: uppercase;
+}
+
+section p{
+	font-size: 25px;
+	word-spacing: 2px;
+	margin-bottom: 25px;
+	text-shadow: 1px 1px 1px white;
+}
+
+section a{
+	padding: 12px 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 15px;
+	text-decoration: none;
+	letter-spacing: 1px;
+
+}
+
+section .btnone{
+	background:#fff;
+	color: #000;
+
+}
+
+.main1{
+	font-size: 15px;
+	word-spacing: 2px;
+	color: white;
+	margin-bottom: 25px;
+	text-shadow: 1px 1px 1px black;
+
+}
+h4
+{
+	font-size: 20px; font-weight: 200; letter-spacing: 3px;
+	text-shadow: 1px 1px 2px pink;
+    
+}
+h5
+{
+	font-size: 20px; font-weight: 200; letter-spacing: 3px;
+	text-shadow: 1px 1px 2px pink;
+    
+}
+h6
+{
+	font-size: 20px; font-weight: 200; letter-spacing: 3px;
+	text-shadow: 1px 1px 2px pink;
+    
+}
+
+
+footer{
+	width: 100%;height: 10vh;
+    color:white; display: flex; justify-content:space-between;
+    text-align: center;
+    align-items: center;
+	color: #000;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+h2
+{
+	font-size: 35px; font-weight: 200; letter-spacing: 3px;
+	text-shadow: 1px 1px 2px pink;
+	color: black;
+	text-align: center;
+    
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.f1{
+	text-align: center;
+	color:white; display: flex; justify-content:space-between;
+}
+p1{
+	color: white;
+	text-align: left;
+}
+
+
+p2{
+	color: white;
+	text-align: left;
+}
+p3{
+	color: white;
+	text-align: left;
+}
+p4{
+	color: white;
+	text-align: left;
+}
+
+
+
